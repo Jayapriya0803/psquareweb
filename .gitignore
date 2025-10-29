@@ -1,0 +1,39 @@
+.DS_Store
+.env
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
+
+# Common ignores for Node / Vite / editor files
+dist/
+/.vite/
+.turbo/
+.cache/
+/.parcel-cache/
+coverage/
+
+# environment files (keep example files)
+.env.local
+.env.*.local
+.env.*.secret
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
